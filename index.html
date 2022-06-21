@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap-Project</title>
+    <link rel="stylesheet" href="" />
+    <link
+      rel="shortcut icon"
+      href="https://scontent-ber1-1.xx.fbcdn.net/v/t31.18172-8/17436192_1512300845448123_8720689176364106984_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZZqcDcAVkksAX-cHeob&_nc_ht=scontent-ber1-1.xx&oh=00_AT-_VtA63M0iEv4m2NwmzCWLyV2p6UU-LC89RYiUAlr_sQ&oe=62D58608"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    "
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script
+      src="https://kit.fontawesome.com/290183c528.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: rgb(224, 213, 213);">
+    <div class="container-fluid d-flex">
+      <span class="placeholder col-4 bg-danger"></span>
+      <span class="placeholder col-4 bg-primary"></span>
+      <span class="placeholder col-4 bg-danger"></span>
+    </div>
+    <header class="bg-light text-danger p-3" id="top">
+      <div class="container-fluid d-flex w-100">
+        <span class="logo fw-bold fs-3 w-25 shadow"
+          ><i class="fa-solid fa-bed fa-2x"></i><em class="">TRAVEL</em></span
+        >
+        <div class="social fs-3 w-50 d-flex justify-content-center shadow">
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-solid fa-share-nodes"></i
+          ></a>
+        </div>
+        <div class="info shadow d-none d-lg-block">
+          <a href="#"
+            >Bist du ziellos? ich auch<i
+              class="fa-solid fa-circle-info px-3"
+            ></i
+          ></a>
+          <p>
+            für weitere informationen kannst du uns chaten
+            <a href="#"><i class="fa-solid fa-comments fa-2x"></i></a>
+          </p>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark ms-5 bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">join</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buchen</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hotel
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex pe-5 w-50" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="landing d-flex vw-100">
+      <div class="bg-img w-100 shadow">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/04/17145258/shutterstock_395147326-870x400.jpg"
+                class="d-block w-100"
+                style="height: 80vh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption w-50 d-md-block text-dark position-absolute"
+                style="position: absolute; top: 20%; left: 0"
+              >
+                <h1>Reise in die Türkei</h1>
+                <q class="h4">
+                  Tschay in der Türkei lieber als Kaffe auf Hawaii
+                </q>
+              </div>
+              <a
+                href="#down"
+                class="position-absolute start-50 d-none d-md-block"
+                style="bottom: 20px"
+                ><i class="fa-solid fa-angles-down fa-3x text-primary"></i
+              ></a>
+            </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="https://as2.ftcdn.net/v2/jpg/02/58/55/23/1000_F_258552305_VERatRrcOjDMGhlgQCI6R8RDZ7H3wobI.jpg"
+                class="d-block w-100"
+                style="height: 80vh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption w-50 d-md-block text-dark position-absolute"
+                style="position: absolute; top: 20%; left: 0"
+              >
+                <h1>Reise in die Türkei</h1>
+                <q class="h4">
+                  Tschay in der Türkei lieber als Kaffe auf Hawaii
+                </q>
+              </div>
+              <a
+                href="#down"
+                class="position-absolute start-50 d-none d-md-block"
+                style="bottom: 20px"
+                ><i class="fa-solid fa-angles-down fa-3x text-primary"></i
+              ></a>
+            </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="https://i.pinimg.com/originals/d8/61/9e/d8619e97129ea514d771f320b95c4efd.jpg"
+                class="d-block w-100"
+                style="height: 80vh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption w-50 d-md-block text-dark position-absolute"
+                style="position: absolute; top: 20%; left: 0"
+              >
+                <h1>Reise in die Türkei</h1>
+                <q class="h4">
+                  Tschay in der Türkei lieber als Kaffe auf Hawaii
+                </q>
+              </div>
+              <a
+                href="#down"
+                class="position-absolute start-50 d-none d-md-block"
+                style="bottom: 20px"
+                ><i class="fa-solid fa-angles-down fa-3x text-primary"></i
+              ></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="card bg-dark text-white w-25 shadow d-none d-lg-block border-0">
+        <img
+          src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2016%2F06%2Fistanbul-turkey0616.jpg&q=60"
+          class="card-img h-100"
+          alt="..."
+        />
+        <div
+          class="card-img-overlay text-capitalize text-center text-dark mt-5 fs-4"
+        >
+          <h3 class="card-title h2">Direct Buchen</h3>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <button type="button" class="btn btn-outline-light fs-4 w-50 shadow">
+            jetzt buchen
+          </button>
+        </div>
+        <div
+          class="chat"
+          style="bottom: 30px; position: fixed; right: 40px; z-index: 1"
+        >
+          <a href="#" title="chat us"
+            ><i class="fa-solid fa-comment fa-5x text-primary"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid my-5" id="down">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card shadow" style="height: 100%">
+            <img
+              src="https://cdn.statically.io/img/www.dominicanabroad.com/f=auto%2Cq=100/wp-content/uploads/2020/07/Best-Places-to-Visit-in-Turkey-1024x713.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Istanbul</h3>
+              <p class="card-text">
+                Gleich zu Beginn unserer Liste steht die gleichzeitig wohl
+                bekannteste und auch meistbesuchte Stadt der Türkei: Ihre
+                faszinierende Großstadt Istanbul. Gelegen am Fluss Bosporus, der
+                die Grenze zwischen Europa und Asien markiert und die Metropole
+                somit auf zwei Kontinente aufteilt, könnt ihr hier sowohl die
+                moderne Türkei erleben wie auch in ihre Jahrtausende alte
+                Geschichte eintauchen und euch für ein paar Tage
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="height: 100%">
+            <img
+              src="https://www.visasturkey.com/wp-content/uploads/sites/43/2019/12/antalya-turkey-travel-guide-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Antalya</h3>
+              <p class="card-text">
+                Von Istanbul im Nordwesten der Türkei geht es nun weiter in die
+                Küstenstadt Antalya im Südwesten – und auch hier gibt es jede
+                Menge zu sehen und entdecken, vom architektonisch schönen
+                Hadrianstor über die atmosphärische Yivli Minare Moschee bis hin
+                zu spannenden Museen wie dem vor allem für Geschichtsfans
+                interessanten Archäologischen Museum von Antalya. Die Stadt
+                sowie ihre Umgebung sind aber nicht nur für ihre kulturellen und
+                historischen Stätten bekannt, Antalya ist auch eine der
+                schönsten Strand und Baderegionen der Türkei – und auch abseits
+                ihrer Küsten gibt es hier so manches natürliche Wunder zu
+                bestaunen, beispielsweise die eindrucksvollen Düden bzw.
+                Kurşunlu Wasserfälle oder der idyllische Karaalioglu Park mit
+                seinem historischen Turm sowie prächtigen Ausblicken über das
+                Meer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="height: 100%">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVj0hjOL_0KQxfFGffen4IDZhGzEj0qTJp9HaBE1kMZklgftEgKl75s9FMHJnVqRfQ6P4&usqp=CAU"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Bursa</h3>
+              <p class="card-text">
+                Wieder zurück im Norden geht es in die nächste absolut
+                sehenswerte Stadt in der Türkei: den bloß etwas über 130
+                Auto-Kilometer von Istanbul entfernten Ort Bursa, eingebettet
+                zwischen den Berg Uludağ sowie die See von Marmara. Auch in
+                Bursa könnt ihr so manche historisch bzw. kulturell interessante
+                Sehenswürdigkeit besuchen, was die Stadt aber besonders
+                hervorhebt, sind ihr wundervollen natürlichen Attraktionen sowie
+                die zahlreichen Ausflugsziele ins Grüne ringsum. Bursa wird oft
+                auch „Yeşil Bursa“ oder „grünes Bursa“ genannt, was der Ort
+                seinen vielen Parks und Grünflächen zu verdanken hat. Außerhalb
+                der Stadt empfehlen sich Trips zu Wanderungen im Gebirge genauso
+                wie Tagesausflüge an die Küste für entspannte Stunden am Strand
+                oder Spaziergänge entlang der friedvoll anmutenden Küste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 shadow">
+        <div class="card col-6 text-center shadow">
+          <div class="card-header">Featured</div>
+          <div class="card-body">
+            <h3 class="card-title">Special title treatment</h3>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">2 days ago</div>
+        </div>
+        <div class="card col-6 text-center shadow">
+          <div class="card-header">Featured</div>
+          <div class="card-body">
+            <h3 class="card-title">Special title treatment</h3>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">2 days ago</div>
+        </div>
+      </div>
+      <div class="card-group gap-1 d-flex flex-column flex-lg-row flex-wrap">
+        <div class="card shadow">
+          <img
+            src="https://pbs.twimg.com/media/EktQjsCWAAE7PRK.jpg "
+            class="card-img-top h-75" style="min-height: 400px; max-height: 400px;"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h3 class="card-title">Izmir</h3>
+            <p class="card-text">
+              Wem zwar nach Meer, aber dabei weniger nach Entspannung im Schoße
+              der Natur als nach aufregenden Tagen mit Strandpartys, einem
+              lebhaften Nachtleben und aufgeschlossener Gesellschaft zumute ist,
+              der ist indessen in Izmir an der türkischen Westküste goldrichtig.
+              Tagsüber könnt ihr hier die schönen Strände der Region besuchen,
+              während es im Anschluss beispielsweise ins Trendviertel Alsancak
+              geht, wo euch jede Menge Pubs, Bars, Discos, Clubs und mehr
+              inklusive jeder Menge gastfreundlicher Einheimischer erwartet –
+              und das alles bei weit weniger Touristenaufkommen als
+              beispielsweise in Istanbul. Wer neben all der Party dann doch noch
+              Lust auf „richtiges“ Sightseeing bekommt, der wird in Izmir
+              ebenfalls nicht enttäuscht: Einst von den Griechen gegründet und
+              später von den Römern erobert, findet ihr in der Stadt selbst
+              sowie im Umland jede Menge archäologische Ausgrabungen sowie
+              zahlreiche spannende Museen und andere kulturell interessante
+              Orte.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/c6/d3/f6/travel-turkey.jpg"
+            class="card-img-top h-75" style="min-height: 400px; max-height: 400px;"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h3 class="card-title">Bodrum</h3>
+            <p class="card-text">
+              Wer bei seinem Türkeiurlaub ein wenig von überall möchte, der
+              sollte eine Reise ins wunderschöne Bodrum an der Ägäis ins Auge
+              fassen! Die Stadt liegt auf der gleichnamigen Halbinsel,
+              eingebettet zwischen Zwillingsbuchten und überblickt von ihrem
+              eindrucksvollsten Wahrzeichen: der Festung von Bodrum, erbaut im
+              15. Jahrhundert. Neben dem Schloss findet hier zudem zahlreiche
+              weitere historisch interessante Ausgrabungen und Stätten mit
+              Artefakten, die teilweise bis ins 4. Jahrhundert vor Christus
+              zurückgehen, sowie zahlreiche Museen, nicht zuletzt das
+              Unterwasser-Archäologie Museum in der Festung selbst, deren
+              Ausstellungen euch antike Schiffswracks und mehr zeigen. Abseits
+              von Geschichte und Kultur ist Bodrum aber auch ein wundervoller
+              Badeort, mit tollen Stränden wie jenen von Yahsi und Bitez oder
+              dem Camel Beach; und wer auch etwas größeren Ausflügen nicht
+              abgeneigt ist, der kann von Bodrum aus auch eine Fähre auf die
+              griechische Hippokrates-Insel Kos unternehmen.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img
+            src="https://www.africanjacana.com/wp-content/uploads/caption.jpeg"
+            class="card-img-top h-75"
+            style="min-height: 400px; max-height: 400px;"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h3 class="card-title">Samsun</h3>
+            <p class="card-text">
+              nd an noch ein Meer grenzt die Türkei – die Schwarze See, an deren
+              Küste sich der nächste Ort in unserer List der schönsten Städte
+              der Türkei liegt: Samsun. Die Universitäts- und Hafenstadt
+              begeistert Besucher mit kulturellen Einrichtungen wie ihrer
+              bekannten Oper sowie zahlreichen interessanten Museen, aber auch
+              mit natürlichen Attraktionen. So könnt ihr hier nicht nur im Hafen
+              idyllische Spaziergänge unternehmen, sondern auch am Strand
+              entspannen, euch in den umliegenden Naturparks und Grünanlagen
+              erholen oder die Aussicht vom Amisos Hügel aus genießen schönsten
+              Städte der Türkei liegt: Samsun. Die Universitäts- und Hafenstadt
+              begeistert Besucher mit kulturellen Einrichtungen wie ihrer
+              bekannten Oper sowie zahlreichen interessanten Museen, aber auch
+              mit natürlichen Attraktionen. So könnt ihr hier nicht nur im Hafen
+              idyllische Spaziergänge unternehmen, sondern auch am Strand
+              entspannen, euch in den umliegenden Naturparks und Grünanlagen
+              erholen oder die Aussicht vom Amisos Hügel aus genießen..
+            </p>
+
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img
+            src="https://i0.wp.com/charlieswanderings.com/wp-content/uploads/2020/04/200430CL-004.jpg?resize=819%2C1024&ssl=1"
+            class="card-img-top h-75"
+            style="min-height: 400px; max-height: 400px;"
+            alt="..."
+          />
+          <div class="card-body">
+            <h3 class="card-title">Ankara</h3>
+            <p class="card-text">
+              Unser nächster Stopp führt uns in die türkische Hauptstadt: Ankara
+              im Herzen des Landes, das vor allem für seine reiche Kunst- und
+              Kulturszene bekannt ist sowie mit jeder Menge interessantere
+              historischer Sehenswürdigkeiten aufwarten kann. Bühnen- und
+              Theaterfreunde können sich hier so beispielsweise Vorstellungen in
+              der weltberühmten Staatsoper samt Ballett oder Darbietungen des
+              Präsidentiellen Symphonieorchesters sowie zahlreicherer weitere
+              kleinerer sowie größerer Ensembles anschauen, während alle
+              Geschichtsbegeisterten beispielsweise das Atatürk Mausoleum
+              Anıtkabir, die Kocatepe Moschee und das Schloss von Ankara
+              besuchen oder sich von den Ausstellungen der vielen spannenden
+              Museen der Stadt in ihren Bann ziehen lassen. Abschließend könnt
+              ihr hier aber auch in der Natur entspannen, beispielsweise im
+              Erholungsgebiet Atatürk Orman Çiftliği ve Hayvanat Bahçesi oder an
+              den Ufern des südlich der Stadt gelegenen Mogan Sees.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-flex">
+      <span class="placeholder col-4 bg-danger"></span>
+      <span class="placeholder col-4 bg-primary"></span>
+      <span class="placeholder col-4 bg-danger"></span>
+    </div>
+    <div class="container my-5 text-center">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card shadow">
+            <a href="text.html"
+              ><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ub5vFByWgAfaDQpjV3lz4F9I-7c4KuItuYbXDjV-9vBiPIu5VcdUdiFRfYuAUMvrTxk&usqp=CAU"
+                class="card-img-top"
+                style="height: 300px"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Istanbul</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-danger"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <a href="text.html"
+              ><img
+                src="https://www.turkeytravelgroup.com/wp-content/uploads/2018/02/banner2-1600x600.jpg"
+                class="card-img-top"
+                style="height: 300px"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Antalya</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-danger"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 my-5 g-4">
+        <div class="col">
+          <div class="card shadow">
+            <a href="text.html"
+              ><img
+                style="height: 300px"
+                src="https://i.pinimg.com/originals/7f/54/38/7f54383d673609ff76424c1fec83a42c.jpg"
+                class="card-img-top"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Bursa</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" class="btn btn-outline-dark" href="text.html"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <a href="#"
+              ><img
+                style="height: 300px"
+                src="https://www.commercialriskonline.com/wp-content/uploads/2021/05/0_Istanbul-Turkey_shutterstock_1186953700.jpg"
+                class="card-img-top"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Izmir</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-dark"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <a href="#"
+              ><img
+                style="height: 300px"
+                src="https://media-cdn.tripadvisor.com/media/photo-s/11/04/29/9c/uzungol-trabzon.jpg"
+                class="card-img-top"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Bodrum</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-dark"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <a href="#"
+              ><img
+                style="height: 300px"
+                src="https://www.themediterraneantraveller.com/wp-content/uploads/2018/05/oludeniz-beach-turkey.jpeg"
+                class="card-img-top"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Samsun</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-dark"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card shadow">
+            <a href="#"
+              ><img
+                src="https://istanbuldaytours.com/wp-content/uploads/2017/04/Black-Sea-Tours-Turkey-8.jpg"
+                class="card-img-top"
+                style="height: 300px"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Ankara</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-danger"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <a href="#"
+              ><img
+                src="https://abtamag.com/wp-content/uploads/2021/06/shutterstock_94462279.jpg"
+                class="card-img-top"
+                style="height: 300px"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <h3 class="card-title">Konya</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <a type="button" href="text.html" class="btn btn-outline-danger"
+              >weiter lesen</a
+            >
+          </div>
+        </div>
+      </div>
+      <a href="#top"
+        ><i class="fa-solid fa-angles-up text-light pt-5 fs-2"></i
+      ></a>
+    </div>
+    <div class="container-fluid d-flex">
+      <span class="placeholder col-4 bg-danger"></span>
+      <span class="placeholder col-4 bg-primary"></span>
+      <span class="placeholder col-4 bg-danger"></span>
+    </div>
+    <footer class="bg-light text-danger pt-3">
+      <div class="container-fluid d-flex w-100">
+        <span class="logo fw-bold pt-2 w-25 shadow">&copy;all right reserved</span>
+        <div class="social fs-3 w-50 d-flex justify-content-center shadow">
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" class="d-bock px-3"
+            ><i class="fa-solid fa-share-nodes"></i
+          ></a>
+        </div>
+        <div class="info shadow">
+          <a href="#"
+            >Bist du ziellos? ich auch<i
+              class="fa-solid fa-circle-info px-3"
+            ></i
+          ></a>
+          <p>&reg;Designed By Mohammad</p>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid d-flex">
+      <span class="placeholder col-4 bg-danger"></span>
+      <span class="placeholder col-4 bg-primary"></span>
+      <span class="placeholder col-4 bg-danger"></span>
+    </div>
+  </body>
+</html>
